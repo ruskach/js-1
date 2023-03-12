@@ -48,14 +48,14 @@ console.log('Правильный ответ 10 / 2 = 5' + ' твой ответ
 
 alert('А теперь давай я буду считать');
 
-var first = prompt('Введи любое целое число');
-var seccond = prompt('И еще раз');
-var third = prompt('И еще');
+var first = +prompt('Введи любое целое число');
+var seccond = +prompt('И еще раз');
+var third = +prompt('И еще');
 
 var x = first;
 var y = seccond;
 var z = third;
-var res = +((x+y+z)/5);
+var res = +((x+y+z)/3);
 
 alert('Среднее арифметическое равно ' + res);
 alert('Все пока!');
